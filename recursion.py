@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """Week 14 Assignment"""
 
+
 def fibonacci(n):
     if n == 1 or n == 2:
         return 1
@@ -24,7 +25,8 @@ def compareTo(s1, s2):
     elif len(s1) < len(s2):
         return int(-1)
 
+
 if __name__ == '__main__':
-    fibonacci(5)
-    gcd(2, 3)
-    compareTo('abc', 'defg')
+    print(fibonacci(5))
+    print(gcd(2, 3)
+    print(compareTo('sunny', 'cloudy'))
